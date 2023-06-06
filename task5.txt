@@ -1,0 +1,54 @@
+FOR LOOP:
+
+for variable in value1 value2 ... valueN
+do
+    # Code to be executed
+done
+
+Example for for loop:
+for i in 1 2 3 4 5
+do
+    echo "Number: $i"
+done
+
+WHILE LOOP:
+while [ condition ]
+do
+    # Code to be executed
+done
+
+Example for while loop:
+counter=1
+while [ $counter -le 5 ]
+do
+    echo "Counter: $counter"
+    counter=$((counter + 1))
+done
+
+UNTIL LOOP:
+until [ condition ]
+do
+    # Code to be executed
+done
+
+Example for Until Loop:
+counter=1
+until [ $counter -gt 5 ]
+do
+    echo "Counter: $counter"
+    counter=$((counter + 1))
+done
+
+DO-WHILE LOOP:
+until [ condition ]
+do
+    # Code to be executed
+done
+
+Example Do-While Loop;
+counter=1
+repeat
+    echo "Counter: $counter"
+    counter=$((counter + 1))
+done until [ $counter -gt 5 ]
+
